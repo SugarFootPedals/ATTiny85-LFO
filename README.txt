@@ -2,6 +2,10 @@ This board uses an ATTiny85 to Generate Low Frequncy Oscillations
 and can output either a Sinewave, Ramp Up, Ramp Down or Triangle Wave by adjusting VR2.
 VR1 varies the Frequency.
 
+Two signal outputs are available : the PWM output and/or a filtered Waveform LFO signal.
+
+LED indicates the speed (and to a certain extent) the type of waveform.
+
 Included is the Sketch to be uploaded to the Attiny85, using the Arduino IDE. 
 It was taken from (and renamed for clarity) the open source "Arduino Component Sketches-master" folder, subtitled "ACS-85 ATTiny85 sketches" code written by Rob Stave .
 
